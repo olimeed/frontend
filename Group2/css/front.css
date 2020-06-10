@@ -85,14 +85,13 @@ p {
     cursor: pointer;
 }
 
-/* Caused an overlay */
-.acc-image1 {
+.acc-image {
     max-width: 200%;
     height: auto;
 }
 
-@media only screen and (max-width: 995px) {
-    .acc-image1 {
+@media only screen and (max-width: 768px) {
+    .acc-image {
         max-width: 100%;
         height: auto;
     }
