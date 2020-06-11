@@ -27,14 +27,14 @@ p {
 }
 
 .home-btn {
-    border-radius:0;
+    border-radius: 0;
 }
 
 .image-wrapper:hover {
     cursor: pointer;
 }
 
-.image-wrapper > div {
+.image-wrapper>div {
     text-align: center;
     position: absolute;
     bottom: 0;
@@ -89,18 +89,16 @@ p {
     cursor: pointer;
 }
 
-/* Caused an overlay */
-.acc-image1 {
+.acc-image {
     max-width: 200%;
     height: auto;
 }
 
-@media only screen and (max-width: 995px) {
-    .acc-image1 {
+@media only screen and (max-width: 768px) {
+    .acc-image {
         max-width: 100%;
         height: auto;
     }
-
     .image-wrapper div {
         opacity: 1;
     }
@@ -123,7 +121,6 @@ p {
     font-weight: normal;
 }
 
-
 .news-form {
     background-color: #5b0e22;
     color: white;
@@ -131,7 +128,9 @@ p {
 }
 
 .comments {
-    padding: 30px 30px 30px 30px;
+    position: relative;
+    background-image: url(./assets/comments.svg);
+    padding: 30px 30px 100px 30px;
     background-color: #fff;
     border-radius: 1.3vmin;
     border: 1px solid rgba(91, 14, 34, 0.85);
@@ -139,6 +138,20 @@ p {
     background-size: contain;
     background-repeat: no-repeat;
     font-family: "Merriweather", serif;
+}
+
+.comments::after {
+    content: '';
+    position: absolute;
+    bottom: -60px;
+    left: 42%;
+    width: 0px;
+    height: 0px;
+    border-top: 30px solid #fff;
+    border-right: 30px solid transparent;
+    /* border-style: dashed; */
+    border-bottom: 30px solid transparent;
+    border-left: 30px solid transparent;
 }
 
 .news-form:focus {
@@ -154,6 +167,7 @@ p {
 }
 
 .user {
+    margin-top: 3rem;
     color: white;
     width: 150px;
     height: 150px;
