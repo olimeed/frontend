@@ -27,14 +27,14 @@ p {
 }
 
 .home-btn {
-    border-radius:0;
+    border-radius: 0;
 }
 
 .image-wrapper:hover {
     cursor: pointer;
 }
 
-.image-wrapper > div {
+.image-wrapper>div {
     text-align: center;
     position: absolute;
     bottom: 0;
@@ -99,7 +99,6 @@ p {
         max-width: 100%;
         height: auto;
     }
-
     .image-wrapper div {
         opacity: 1;
     }
@@ -122,7 +121,6 @@ p {
     font-weight: normal;
 }
 
-
 .news-form {
     background-color: #5b0e22;
     color: white;
@@ -130,13 +128,9 @@ p {
 }
 
 .comments {
-<<<<<<< HEAD
-    padding: 30px 30px 30px 30px;
-=======
     position: relative;
     background-image: url(./assets/comments.svg);
     padding: 30px 30px 100px 30px;
->>>>>>> CommentSection
     background-color: #fff;
     border-radius: 1.3vmin;
     border: 1px solid rgba(91, 14, 34, 0.85);
