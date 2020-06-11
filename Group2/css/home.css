@@ -32,28 +32,35 @@
     list-style-type: none;
 }
 
-/* Carousel base class */
-.carousel {
 
-}
+/* Carousel base class */
+
+.carousel {}
+
 
 /* Since positioning the image, we need to help out the caption */
+
 .carousel-caption {
     bottom: 10rem;
     z-index: 10;
 }
 
+
 /* Declare heights because of positioning of img element */
+
 .carousel-item {
     height: 32rem;
 }
-.carousel-item > img {
+
+.carousel-item>img {
     position: absolute;
     top: 0;
     left: 0;
     min-width: 100%;
     height: 32rem;
 }
+
+
 /*
  */
 
@@ -64,6 +71,37 @@
     line-height: 30px;
     letter-spacing: 0.025em;
     color: #FFA800;
+}
+
+.below-tagline {
+    font-family: Berkshire Swash;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 45px;
+    align-items: center;
+    letter-spacing: 0.025em;
+    color: #FFFFFF;
+}
+
+.below-tagline::after {
+    position: absolute;
+    top: 21vh;
+    left: 24vw;
+    content: '';
+    width: 90px;
+    height: 1px;
+    background: #FFFFFF;
+}
+
+.below-tagline::before {
+    position: absolute;
+    top: 21vh;
+    right: 24vw;
+    content: '';
+    width: 90px;
+    height: 1px;
+    background: #FFFFFF;
 }
 
 
