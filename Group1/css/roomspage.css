@@ -24,19 +24,31 @@
     background-size: cover;
 }
 
-.header-content{
-    position: relative;
-    z-index: 3;
-    color: white;
-    margin: auto;
-    text-align: center;
-    line-height: 50px;
-    top: 47%;
-    width: 33%;
-    letter-spacing: 2px;
-    font-size: 1em;
-    font-size: 24px;
-    letter-spacing: 0.2rem;
+.hero {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/Rectangle1.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 120vh;
+    margin-bottom: 60px;
+    
+  }
+
+
+  
+
+
+  @media screen and (max-width: 1000px) {
+    .hero {
+      width: 100vw;
+      height: 70vh;
+    }
+    
+  }
+
+.site-text{
+    border-bottom: 1px solid white;
+    margin-bottom: 10px;
 }
 
 @media(max-width: 850px){
@@ -44,6 +56,7 @@
         font-size: 16px;
         top: 35%;
         width: 60%;
+        
     }
         .bg-image{
             background-size: fill;

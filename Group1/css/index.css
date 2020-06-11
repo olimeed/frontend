@@ -60,6 +60,7 @@ button:not(:disabled) {
   color: white;
 }
 
+
 @media screen and (max-width: 1000px) {
   .palm-view-hero {
     margin-top: 100px;
