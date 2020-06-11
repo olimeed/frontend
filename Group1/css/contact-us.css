@@ -1,7 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap");
-html {
-  font-family: 'poppins';
-}
 
 @media screen and (max-width: 1000px) {
     body {
@@ -17,22 +14,21 @@ html {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 120vh;
-    margin-bottom: 60px;
-    
+    height: 100vh;
   }
 
   @media screen and (max-width: 1000px) {
     .hero {
       width: 100vw;
-      height: 70vh;
+      height: 100vh;
     }
     
   }
 
 .site-text{
     border-bottom: 1px solid white;
-    margin-bottom: 5px;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
 }
 .header{
     height: 600px;
@@ -50,7 +46,9 @@ html {
         background-color: rgba(0, 0, 0, 0.836);
         z-index: 2;
     }
-    
+    #nav{
+        text-align: center;
+    }
 }
 #hero-2{
     height: 55vh;
@@ -90,26 +88,9 @@ html {
     width: 100%;
     margin-bottom: -10px;
 }
-#directions{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 300px;
-    background-color: #fff;
-    padding: 1rem;
-    font-size: 12px;
+.align-items-center{
+    margin: auto;
 }
-#directions h4{
-    font-size: 14px;
-    margin-bottom: .5rem;
-}
-#directions p{
-    margin-bottom: .5rem;
-}
-#directions a{
-    text-decoration: none;
-}
-
 @media screen and (max-width:768px){
     #hero-2{
     height: 800px;
@@ -127,8 +108,7 @@ html {
     
 }
 }
-.header-content h1{
-    border-bottom: 1px solid white;
-   
-}
 
+.high{
+    height: 80vh;
+}

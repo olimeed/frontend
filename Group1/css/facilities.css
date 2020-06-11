@@ -87,6 +87,9 @@ hr{
     main{
         padding: 2rem .5rem;
     }
+    #nav{
+        text-align: center;
+    }
     .col{
     height: 200px;
     margin-top: 20px;
