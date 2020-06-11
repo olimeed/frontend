@@ -23,7 +23,7 @@
 }
 
 .bg-image{
-    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url("../images/contact.jpg") center;
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url("https://res.cloudinary.com/elion-tech/image/upload/q_53/v1591786867/contact_ufsysy.jpg") center;
     background-size: cover;
 }
 
@@ -59,7 +59,7 @@
     }
     
     .header{
-        height: 500px;
+        height: 100vh;
     }
 }
 #hero-2{
