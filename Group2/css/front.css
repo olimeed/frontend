@@ -131,20 +131,6 @@ p {
     background-repeat: no-repeat;
 }
 
-.comments::after {
-    content: '';
-    position: absolute;
-    bottom: -60px;
-    left: 42%;
-    width: 0px;
-    height: 0px;
-    border-top: 30px solid #fff;
-    border-right: 30px solid transparent;
-    /* border-style: dashed; */
-    border-bottom: 30px solid transparent;
-    border-left: 30px solid transparent;
-}
-
 .news-form:focus {
     background-color: #5b0e22;
     box-shadow: none;

@@ -147,6 +147,10 @@ footer .social-links img:hover {
     transform: rotate(360deg);
 }
 
+.social-links {
+    text-align: right;
+}
+
 footer .footer__links {
     line-height: 34px;
 }
@@ -178,6 +182,15 @@ footer .footer__links {
     -moz-transition: 0.5s;
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
+}
+
+@media only screen and (max-width: 768px) {
+    .social-links {
+        text-align: center;
+    }
+    .footer_logo {
+        width: 75vw;
+    }
 }
 
 
