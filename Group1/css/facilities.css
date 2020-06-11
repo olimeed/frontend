@@ -63,7 +63,10 @@ hr{
 .first button{
     background-color: #DBA7C1;
     margin:auto;
-    
+}
+.first button{
+    background-color: none;
+    border: 1px solid #DBA7C1;
 }
 /*additions*/
 @media screen and (max-width: 560px) {
