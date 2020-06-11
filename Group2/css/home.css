@@ -191,6 +191,16 @@ footer .footer__links {
     .footer_logo {
         width: 75vw;
     }
+    .below-tagline::before {
+        top: 44vh;
+        right: 55vw;
+        width: 59px;
+    }
+    .below-tagline::after {
+        top: 44vh;
+        left: 55vw;
+        width: 59px;
+    }
 }
 
 
