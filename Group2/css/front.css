@@ -120,6 +120,7 @@ p {
 }
 
 .comments {
+    position: relative;
     background-image: url(./assets/comments.svg);
     padding: 30px 30px 100px 30px;
     background-color: #fff;
@@ -129,6 +130,37 @@ p {
     background-size: contain;
     background-repeat: no-repeat;
 }
+
+
+/* test */
+
+.bubble {
+    position: relative;
+    background-color: black;
+    padding: 20px;
+    width: 23vw;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.comments::after {
+    content: '';
+    position: absolute;
+    bottom: -60px;
+    left: 42%;
+    width: 0px;
+    height: 0px;
+    border-top: 30px solid #fff;
+    border-right: 30px solid transparent;
+    /* border-style: dashed; */
+    border-bottom: 30px solid transparent;
+    border-left: 30px solid transparent;
+}
+
+
+/* end of test */
 
 .news-form:focus {
     background-color: #5b0e22;
@@ -143,6 +175,7 @@ p {
 }
 
 .user {
+    margin-top: 2rem;
     color: white;
     width: 150px;
     height: 150px;
