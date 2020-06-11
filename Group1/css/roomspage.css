@@ -20,12 +20,12 @@
 
 .bg-image{
     
-    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url("../images/Rectangle1.png") center;
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url("") center;
     background-size: cover;
 }
 
 .hero {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/Rectangle1.png");
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://res.cloudinary.com/elion-tech/image/upload/v1591786654/roomspage/Rectangle1_vk5xxk.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -41,13 +41,14 @@
   @media screen and (max-width: 1000px) {
     .hero {
       width: 100vw;
-      height: 70vh;
+      height: 100vh;
     }
     
   }
 
 .site-text{
     border-bottom: 1px solid white;
+    padding-bottom: 1rem;
     margin-bottom: 10px;
 }
 
@@ -76,6 +77,9 @@
     .header{
         height:71vh ;
     } 
+    #nav{
+        text-align: center;
+    }
     .header-div,h4{
         font-size: 15px;
         
@@ -111,17 +115,17 @@ hr{
     font-family: poppins;
 }
 .row1{
-    background-image: url("../images//roomspage/first.png");
+    background-image: url("https://res.cloudinary.com/elion-tech/image/upload/v1591786651/roomspage/first_ehwlug.png");
     
 }
 .row2{
-    background-image: url("../images/roomspage/second.png");
+    background-image: url("https://res.cloudinary.com/elion-tech/image/upload/v1591786650/roomspage/second_bz2gsp.png");
 }
 .row3{
-    background-image: url("../images/roomspage/third.png");
+    background-image: url("https://res.cloudinary.com/elion-tech/image/upload/q_59/v1591786652/roomspage/third_j1avsp.png");
 }
 .row4{
-    background-image: url("../images/roomspage/fourth.png");
+    background-image: url("https://res.cloudinary.com/elion-tech/image/upload/q_63/v1591786654/roomspage/fourth_bglwca.png");
 }
 
 .deluxe{
@@ -259,4 +263,8 @@ hr{
         /* line-height: 7px; */
     }
 
+}
+.high{
+    height: 80vh;
+    
 }
