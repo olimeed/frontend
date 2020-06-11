@@ -34,3 +34,6 @@ button:not(:disabled) {
   border-color: #DBA7C1;
   color: white;
 }
+.btn:hover{
+  background-color: #DBA7C1;
+}
