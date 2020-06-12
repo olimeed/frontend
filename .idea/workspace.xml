@@ -1,95 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f02723f-a292-460f-9dd5-fdd47af2b493" name="Default Changelist" comment="nav menu">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Group2/assets/css/contactform.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Group2/assets/css/facilities.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Group2/assets/css/front.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Group2/assets/css/grey-section.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Group2/assets/css/home.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Group2/assets/css/room-and-pricing.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Group2/assets/images/Around_the_hotel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Group2/assets/images/Button-Enter-Arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Group2/assets/images/Cosmopolitan.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Group2/assets/images/Facebook-icon-Header.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Group2/assets/images/Homepage-Scroll-left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Group2/assets/images/Homepage-Scroll-right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Group2/assets/images/Homepage_img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Group2/assets/images/Hotel-intro-img1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Group2/assets/images/Hotel-intro-img2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Group2/assets/images/Hotel_Logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Group2/assets/images/Instagram-icon-Header.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Group2/assets/images/Instagram-icon-footer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Group2/assets/images/Map_placeholder.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Group2/assets/images/Outdoor_image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Group2/assets/images/Page-Scroll-Up.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Group2/assets/images/Phone-icon-Header.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Group2/assets/images/Play-icon-video.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Group2/assets/images/Rectangle 1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Group2/assets/images/Rectangle 2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Group2/assets/images/Rectangle 3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Group2/assets/images/Rectangle 4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Group2/assets/images/Room-Star-Rating.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Group2/assets/images/Twitter-icon-Header.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Group2/assets/images/Twitter-icon-footer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Group2/assets/images/User-Image-Placeholder.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Group2/assets/images/Video-placeholder.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Group2/assets/images/WhatsApp-icon-Header.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Group2/assets/images/WhatsApp-icon-footer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Group2/assets/images/arrow-right.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Group2/assets/images/comments.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Group2/assets/images/facebook-icon-footer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Group2/assets/images/placeholder.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Group2/assets/images/room.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Group2/assets/images/star.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Group2/assets/images/toggle  button.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Group2/assets/js/app.js" afterDir="false" />
+    <list default="true" id="4f02723f-a292-460f-9dd5-fdd47af2b493" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Group2/assets/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/Group2/assets/css/home.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Group2/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/Group2/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Group2/css/contactform.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Group2/css/facilities.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Group2/css/front.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Group2/css/grey-section.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Group2/css/home.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Group2/css/room-and-pricing.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Group2/img/Around_the_hotel.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Group2/img/Button-Enter-Arrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Group2/img/Cosmopolitan.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Group2/img/Facebook-icon-Header.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Group2/img/Homepage-Scroll-left.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Group2/img/Homepage-Scroll-right.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Group2/img/Homepage_img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Group2/img/Hotel-intro-img1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Group2/img/Hotel-intro-img2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Group2/img/Hotel_Logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Group2/img/Instagram-icon-Header.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Group2/img/Instagram-icon-footer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Group2/img/Map_placeholder.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Group2/img/Outdoor_image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Group2/img/Page-Scroll-Up.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Group2/img/Phone-icon-Header.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Group2/img/Play-icon-video.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Group2/img/Rectangle 1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Group2/img/Rectangle 2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Group2/img/Rectangle 3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Group2/img/Rectangle 4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Group2/img/Room-Star-Rating.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Group2/img/Twitter-icon-Header.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Group2/img/Twitter-icon-footer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Group2/img/User-Image-Placeholder.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Group2/img/Video-placeholder.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Group2/img/WhatsApp-icon-Header.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Group2/img/WhatsApp-icon-footer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Group2/img/arrow-right.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Group2/img/comments.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Group2/img/facebook-icon-footer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Group2/img/placeholder.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Group2/img/room.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Group2/img/star.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Group2/img/toggle  button.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Group2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Group2/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Group2/js/app.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Group2/rooms-and-price.html" beforeDir="false" afterPath="$PROJECT_DIR$/Group2/rooms-and-price.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Group2/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/Group2/services.html" afterDir="false" />
     </list>
@@ -168,7 +84,7 @@
       <workItem from="1591771473834" duration="8859000" />
       <workItem from="1591859718516" duration="885000" />
       <workItem from="1591877053748" duration="3199000" />
-      <workItem from="1591904588807" duration="14637000" />
+      <workItem from="1591904588807" duration="15418000" />
     </task>
     <task id="LOCAL-00001" summary="Clean up">
       <created>1591733785827</created>
@@ -282,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591923595307</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="moved media files to assets folder">
+      <created>1591924744584</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1591924744584</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -300,17 +223,18 @@
     <MESSAGE value="clean ups" />
     <MESSAGE value="nav menu" />
     <MESSAGE value="responsive footer" />
-    <option name="LAST_COMMIT_MESSAGE" value="responsive footer" />
+    <MESSAGE value="moved media files to assets folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="moved media files to assets folder" />
   </component>
   <component name="WindowStateProjectService">
     <state x="392" y="89" key="#Notifications" timestamp="1591877079834">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="392" y="89" key="#Notifications/0.0.1600.860@0.0.1600.860" timestamp="1591877079834" />
-    <state x="425" y="25" key="CommitChangelistDialog2" timestamp="1591923592686">
+    <state x="425" y="25" key="CommitChangelistDialog2" timestamp="1591924742064">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="425" y="25" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1591923592686" />
+    <state x="425" y="25" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1591924742064" />
     <state x="152" y="74" key="DiffContextDialog" timestamp="1591909503202">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -323,10 +247,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="512" y="147" key="MultipleFileMergeDialog/0.0.1600.860@0.0.1600.860" timestamp="1591860018541" />
-    <state x="392" y="164" key="Vcs.Push.Dialog.v2" timestamp="1591923596346">
+    <state x="392" y="164" key="Vcs.Push.Dialog.v2" timestamp="1591924744564">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="164" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1591923596346" />
+    <state x="392" y="164" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1591924744564" />
     <state x="503" y="222" key="git4idea.merge.GitPullDialog" timestamp="1591909523402">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

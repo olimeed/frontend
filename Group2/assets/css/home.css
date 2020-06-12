@@ -261,6 +261,8 @@ footer .footer__links {
 
 .menus li {
     list-style-type: none;
+    padding-bottom: 2rem;
+    text-align: center;
 }
 
 .menus a {
