@@ -149,7 +149,7 @@ hr{
     padding-top: .3em;
 }
 
-    .row{
+    .row1, .row2, .row3, .row4{
     background-size: cover;
     height: 60vh;
     margin-top: 10px;
