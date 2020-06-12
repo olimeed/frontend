@@ -14,8 +14,9 @@ body{
     font-weight: 300;
 }
 
+
 #contactusstyled {
-    font-family: Berkshire Swash;
+    font-family: Berkshire Swash, serif;
     font-weight: bold;
 }
 
@@ -26,11 +27,16 @@ body{
 .contact-text {
     color: rgba(91, 14, 34, 0.85);
     font-weight: bold;
-    font-family: Merriweather Sans;
+    font-family: Merriweather Sans, serif;
 }
 
 .form-control {
-    border-radius: 0px;
+    border-radius: 0;
+    border: 1px solid black;
+}
+
+.form-control:focus {
+    outline: none;
 }
 
 .Btn-submit {
@@ -48,7 +54,7 @@ body{
     box-shadow: none;
     width: 250px;
     height: 70px;
-    font-family: Merriweather Sans;
+    font-family: Merriweather Sans, serif;
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
