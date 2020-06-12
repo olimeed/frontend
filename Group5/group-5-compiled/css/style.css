@@ -223,9 +223,7 @@ margin-bottom : 4%;
 
 
 .rooms{
-margin-left : 1%;
 margin-top : 50%;
-margin-right : 10%;
 }
 
 .rooms h1 {
@@ -234,6 +232,11 @@ color : #86032D;
 text-decoration: underline  #FFC300;
 font-weight : bold;
 margin-bottom: 3%;
+}
+
+.rooms *:hover{
+  cursor: pointer;
+  opacity: 0.99;
 }
 
 .col-sm-4 span{
@@ -474,9 +477,7 @@ color : rgb(13, 107, 231) !important;
 }
 
 .rooms{
-    margin-left : 10%;
     margin-top : 20%;
-    margin-right : 10%;
 }
 
 .rooms h1 {
@@ -594,12 +595,6 @@ color : rgb(13, 107, 231) !important;
 	display: inline-block;
 	width: auto;
 	height: auto;
-}
-
-.header{
-	padding: 1em 0;
-	min-height: 154px;
-	
 }
 
 
@@ -945,20 +940,15 @@ section.get_in_touch{
 /**********FACILITIES PAGE************/
 
 
-
-
-
-
 :root {
   --display: flex;
   --justifyContent: center;
   --alignItems: center;
-  --fontHeading: "Playfair Display", serif;
 }
-* {
-  padding: 0;
-  margin: 0;
-  font-family: var(--fontFamily);
+
+.section-middle-box:hover{
+  cursor: pointer;
+  opacity: 0.9;
 }
  /*header */
  #app{
@@ -967,7 +957,6 @@ section.get_in_touch{
 .header {
   position: absolute;
   width: 100%;
-  padding: 0 30px;
 }
 
  /*top with the background image */
@@ -988,7 +977,7 @@ section.get_in_touch{
 }
 .section-top-text h1 {
   font-size: 65px;
-  font-family: var(--fontHeading);
+  font-family: "Playfair Display";
 }
 
  /*middle */
@@ -1004,7 +993,7 @@ section.get_in_touch{
   display: var(--display);
   justify-content: var(--justifyContent);
   font-weight: 600;
-  font-family: var(--fontHeading);
+  font-family: "Playfair Display";
   font-size: 30px;
   text-align: center;
 }
@@ -1097,7 +1086,6 @@ section.get_in_touch{
   .header {
     width: 1300px;
     left: 50%;
-    margin-left: -650px;
   }
  
 }
