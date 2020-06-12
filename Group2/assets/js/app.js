@@ -1,4 +1,3 @@
-console.log("demo 1");
 // Hamburger JS
 const ham = document.querySelector(".hamburger");
 const ham1 = document.querySelector(".ham1");
@@ -7,10 +6,9 @@ const ham3 = document.querySelector(".ham3");
 const navbar = document.querySelector(".Mobile-menu");
 const body = document.querySelector("html");
 
-console.log("demo 2");
 
 const menuOpen = e => {
-    console.log("demo 3");
+    console.log("hey ninja");
     ham1.classList.toggle("ham-tilt-right");
     ham2.classList.toggle("ham-no-show");
     ham3.classList.toggle("ham-tilt-left");
@@ -18,28 +16,20 @@ const menuOpen = e => {
     navbar.classList.toggle("MMmenu");
     body.classList.toggle("no-scroll");
 
-    console.log("work")
 };
 ham.addEventListener("click", menuOpen);
 
 
-console.log("demo 3");
 
+const scrollButton = document.querySelector("#scroll");
 
-$(document).ready(function () {
-    // Show or hide the sticky footer button
-    $(window).scroll(function () {
-        if ($(this).scrollTop() > 200) {
-            $('.go-top').fadeIn(200);
-        } else {
-            $('.go-top').fadeOut(200);
-        }
+scrollButton.addEventListener("click", function () {
+
+    window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: "smooth"
     });
-
-    // Animate the scroll to top
-    $('.go-top').click(function (event) {
-        event.preventDefault();
-
-        $('html, body').animate({scrollTop: 0}, 300);
-    })
 });
+
+
