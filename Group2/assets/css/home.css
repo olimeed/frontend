@@ -3,7 +3,7 @@ body {
 }
 .showcase {
     height: 100vh;
-    background-image: url('../img/Homepage_img.png');
+    background-image: url('../images/Homepage_img.png');
     object-fit: cover;
     background-size: cover;
     background-repeat: no-repeat;

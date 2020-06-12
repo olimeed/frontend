@@ -129,7 +129,7 @@ p {
 
 .comments {
     position: relative;
-    background-image: url(./assets/comments.svg);
+    background-image: url(./images/comments.svg);
     padding: 30px 30px 30px 30px;
     background-color: #fff;
     border-radius: 1.3vmin;
