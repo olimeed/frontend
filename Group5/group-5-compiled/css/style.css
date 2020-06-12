@@ -64,14 +64,13 @@ a:focus {
 .introduction{
     color : white;
     margin-top : 8%;
-    margin-left : 10%;
     font-size : 35px;
     font-weight : bolder;  
+    text-align: center;
 }
 
 #experience2{
     font-size : 30px;
-    margin-left : 15%;
 }
 
 #intro-buttons {
@@ -326,20 +325,18 @@ color : rgb(13, 107, 231) !important;
 
 .introduction{
     color : white;
+    text-align: center;
     margin-top : 8%;
-    margin-left : 25%;
     font-size : 90px;
     font-weight : bolder;  
 }
 
 #experience2{
     font-size : 60px;
-    margin-left : 12%;
 }
 
 #intro-buttons {
     margin-top : 9%;
-    margin-left : 23%;
    
 }
 
@@ -351,6 +348,7 @@ color : rgb(13, 107, 231) !important;
     background-color : transparent;
     border : 3px solid white;
     color : white;
+    margin-top: 5px;
 }
 
 #intro-buttons button select {
@@ -583,9 +581,9 @@ color : rgb(13, 107, 231) !important;
 }
 
 .bg{
-	background: url(../img/a.png) no-repeat 0px 0px;
-	background-size: 100%  100%;
-	min-height: 700px;
+	background: url(../img/a.png) no-repeat;
+	background-size: cover;
+  background-position: center center;
 	position:relative;
 }
 
@@ -970,7 +968,8 @@ section.get_in_touch{
     ),
     url("../img/header_img.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
+  background-position: center center;
   display: flex;
   justify-content: center;
   align-items: center;
