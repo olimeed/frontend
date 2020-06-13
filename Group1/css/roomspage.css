@@ -157,7 +157,9 @@ hr{
     font-size: 14px;
     margin-top: 0px;
 }
-
+.view-details:hover{
+    width: 6rem;
+}
 .night{
     font-weight: 500;
     font-size: 16px; 
