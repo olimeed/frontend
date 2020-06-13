@@ -46,11 +46,12 @@ hr{
 
 .row1, .row2, .row3, .row4 {
     background-size: cover;
-    height: 60vh;
+    height: 380px;
     margin-top: 50px;
     margin-bottom: 50px;
     color: #ffffff;
     font-family: poppins;
+    position: relative;
 }
 .row1{
     background-image: url("https://res.cloudinary.com/elion-tech/image/upload/v1591786651/roomspage/first_ehwlug.png");
@@ -67,11 +68,13 @@ hr{
 }
 
 .deluxe{
-    height: 60vh;
+    height: 380px;
     background-color:  rgba(0,0,0,0.7);
     position: absolute;
     left:0px;
     top: 0px;
+    padding:.5rem 2rem;
+    width: 40%;
 }
 .deluxe-suite{
     font-size: 36px;
@@ -99,6 +102,20 @@ hr{
     height: 2.5rem;
     width: 8rem;
     font-size: 14px;
+    color: black !important;
+    transition: all .3s ease-in-out;
+
+}
+.view-details:hover{
+    background: #ffffff;
+    border-radius: 4px;
+    border: none;
+    line-height: normal;
+    position: relative;
+    height: 2.5rem;
+    width: 8rem;
+    font-size: 14px;
+    color: #e780b4 !important;
 }
 
 .night{
@@ -118,16 +135,17 @@ hr{
     width: 90%;
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width:1000px){
     .details{
     display: flex;
     flex-direction: column-reverse;
-    justify-content: center;
-    align-items: flex-start;
+    justify-content: baseline;
+    align-items: baseline;
     vertical-align: baseline;
     position: absolute;
     top: 45%;
     width: 90%;
+    height: 5rem;
 }
 .view-details{
     background: #DBA7C1;
@@ -139,29 +157,37 @@ hr{
     font-size: 14px;
     margin-top: 0px;
 }
-
+.view-details:hover{
+    width: 6rem;
+}
 .night{
     font-weight: 500;
     font-size: 16px; 
     border-top: 2px solid #DBA7C1;
     border-bottom: none;
     margin-bottom: 0px;
-    padding-top: .3em;
+    padding-bottom: 0px;
+    padding-top: .1em;
 }
-
-    .row1, .row2, .row3, .row4{
+.row1, .row2, .row3, .row4 {
     background-size: cover;
-    height: 60vh;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    height: 380px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     color: #ffffff;
     font-family: poppins;
-    width: 300px ;
-        height: 27vh;
-        position: relative;
-        justify-content: center;
-        left:30px;
 }
+    .row1, .row2, .row3, .row4{
+        background-size: cover;
+        margin: auto 15px !important;
+        margin-top: 15px !important;
+        margin-bottom: 15px !important;
+        color: #ffffff;
+        font-family: poppins;
+        height: 200px;
+        justify-content: center;
+        position: relative;
+    }
     body{
         overflow-x: hidden;
     }
@@ -170,19 +196,19 @@ hr{
     }
   
     .deluxe{
-        height: 27vh;
+        height: 200px;
         width:140px !important;
-        position: relative;
-        left:-80px;
-        
+        position: absolute;
+        left:0px;
+        padding-top: 0rem;
+        padding-left: 1rem;
     }
     .deluxe-suite{
         font-size: 16px;
         font-weight:bold ;
         letter-spacing: normal;
         line-height: normal;
-        position: relative;
-        top: -15px;
+        padding-top: 1rem;
     }
 }
 .high{
