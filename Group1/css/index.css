@@ -9,22 +9,24 @@ body {
   font-family: 'poppins';
 }
 
-@media screen and (max-width: 1000px) {
-  body {
-    text-align: center;
-  }
-}
 
 .hero {
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../Images/index-images/hero.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 120vh;
+  height: 100vh;
   margin-bottom: 60px;
+}
+.nav-link:hover{
+  color: #DBA7C1;
+  border-bottom: 1px solid #DBA7C1;
 }
 
 @media screen and (max-width: 1000px) {
+  body {
+    text-align: center;
+  }
   .hero {
     width: 100vw;
     height: 100vh;
@@ -32,42 +34,9 @@ body {
   .hero .typewrite {
     width: 100vw;
   }
-}
-
-header {
-  padding: 30px;
-}
-
-@media screen and (max-width: 1000px) {
   header {
     padding-bottom: 0px;
   }
-}
-
-.navbar-light .navbar-nav .active > .nav-link {
-  color: white;
-}
-
-.phone {
-  position: relative;
-  top: 5px;
-}
-
-[type=button]:not(:disabled),
-[type=reset]:not(:disabled),
-[type=submit]:not(:disabled),
-button:not(:disabled) {
-  border-color: #DBA7C1;
-  color: white;
-}
-
-.palm-view-hero {
-  margin-top: 250px;
-  color: white;
-}
-
-
-@media screen and (max-width: 1000px) {
   .palm-view-hero {
     margin-top: 100px;
     display: flex;
@@ -82,6 +51,32 @@ button:not(:disabled) {
     text-align: left;
   }
 }
+
+header {
+  padding: 30px;
+}
+
+.navbar-light .navbar-nav .active > .nav-link {
+  color: white;
+}
+
+
+
+[type=button]:not(:disabled),
+[type=reset]:not(:disabled),
+[type=submit]:not(:disabled),
+button:not(:disabled) {
+  border-color: #DBA7C1;
+  color: white;
+}
+
+.palm-view-hero {
+  margin-top: 200px;
+  color: white;
+}
+
+
+
 
 .palm-view-hero h1 {
   font-weight: 500px;
@@ -196,7 +191,7 @@ hr {
 
 .img-div .vl {
   border-left: 1px solid rgba(0, 0, 0, 0.5);
-  height: 400px;
+  height: 470px;
   padding: 30% 0;
   position: relative;
   top: 40px;
@@ -258,6 +253,10 @@ hr {
   margin: 10px;
   margin-bottom: 40px;
 }
+.rate-btn:hover {
+  background: #ffffff !important;
+  color: #DBA7C1 !important;
+}
 
 .room-card {
   margin-bottom: 20px;
@@ -265,7 +264,7 @@ hr {
 }
 
 hr.rate-hr {
-  border: 1px solid #000;
+  border-top: 1px solid #000;
   margin-top: 50px;
   /* margin-bottom: 20px */
 }

@@ -6,7 +6,6 @@
   display: flex;
   justify-content: space-around;
   border-bottom: 1px solid white;
-  font-weight: bold;
 }
 
 /* new style [@felisto]*/
@@ -65,6 +64,3 @@
   background-color: #DBA7C1;
 }
 
-.bold {
-  font-weight: bold;
-}
