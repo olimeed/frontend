@@ -1,0 +1,40 @@
+
+.Container {
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+   justify-items: center;
+   grid-gap : 0px;
+   grid-row-gap:0px;
+   grid-column-gap : 0px ;
+
+}
+
+h5 {
+    text-align: center;
+}
+
+.center {
+    border-width: 0cm;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width : 70% ;
+}
+  
+.gallery {
+    
+  width : 421px;
+  height : 417px;
+  align-content: center;
+    
+  }
+
+.gallery-btn {
+    background-color: #EB392E;
+    color : white;
+    margin-top: 20px;
+    padding : 15px ;
+    border : none ;
+
+}
+  
